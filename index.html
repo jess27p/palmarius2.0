@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Palmarius - Web Development</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Página web dedicada a tus soluciones informáticas, nos encargamos de tu aplicación web o móvil y tienda en línea. Visítanos, te estamos esperando." />
+        <meta name="keywords" content="palmarius, desarrollo, development, web, angular 2, angular, javascript, laravel, java, .net, ionic, ecommerce, e-commerce, node js, js, tienda en linea, tienda, online, en linea, en, linea, desarrollo web, desarrollo movil, mobile development, web development, computer, programming, programacion" />
+	<meta name="author" content="Palmarius C.A" />
+
+  <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
+
+	-->
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <p id="msgSuccess" style="display:none">¡Su mensaje fue enviado exitosamente!</p>
+                    <p id="msgError" style="display:none">¡Oops! Su mensaje no pudo enviarse.</p>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal"><span>Close</span></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+	<header role="banner" id="fh5co-header">
+			<div class="container">
+				<!-- <div class="row"> -->
+			    <nav class="navbar navbar-default">
+		        <div class="navbar-header" style="width:215px">
+		        	<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                                     <!--   <a class="navbar-brand" href="index.html">
+                                          Palmarius  <img style="width:100%" src="images/palmarius-big.png"> 
+                                        </a> -->
+                                        <img style="width:100%" src="images/palmarius-big.png">
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+		            <li><a href="#" data-nav-section="work"><span>Portafolio</span></a></li>
+                            <li><a href="#" data-nav-section="about"><span>Equipo</span></a></li>
+		            <li><a href="#" data-nav-section="services"><span>Servicios</span></a></li>	            
+		            <li><a href="#" data-nav-section="contact"><span>Contacto</span></a></li>
+		          </ul>
+		        </div>
+			    </nav>
+			  <!-- </div> -->
+		  </div>
+	</header>
+
+	<section id="fh5co-home" data-section="home" style="background-image: url(images/palmarius-header-min.jpg);" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<h1 class="to-animate">Materializamos tu idea.</h1>
+							<h2 class="to-animate">Nos encargamos del desarrollo de tu proyecto de principio a fin.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+	<section id="fh5co-intro">
+		<div class="container">
+			<div class="row row-bottom-padded-lg">
+				<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon icon-bulb"></i>
+						<h2>Análisis y Planificación</h2>
+						<p>Nos encargamos del análisis de cada uno de tus requerimientos, definimos el alcance de tu proyecto y realizamos una planificación con las actividades y recursos necesarios para garantizar el éxito del mismo.</p>
+						<!--<p><a href="#" class="btn btn-primary">Get In Touch</a></p>-->
+					</div>
+				</div>
+				<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon icon-wrench"></i>
+						<h2>Ejecución</h2>
+						<p>En base a la planificación, llevamos a cabo la ejecución de cada una de las actividades, y tareas. La comunicación con nuestro clientes es un pilar muy importante, te mantendremos al tanto sobre tu proyecto.</p>
+						<!--<p><a href="#" class="btn btn-primary">Click Me</a></p>-->
+					</div>
+				</div>
+				<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon icon-rocket"></i>
+						<h2>Producción y Cierre</h2>
+					<p>Nos encargamos de culminar las actividades que fueron solicitadas, realizar cambios de ser necesario y poner en producción tu proyecto, para así establecer formalmente que el proyecto ha sido concluido.</p>
+						<!--<p><a href="#" class="btn btn-primary">Why Us?</a></p>-->
+					</div>
+				</div>
+			</div>
+			<div class="row watch-video text-center to-animate">
+				<div class="container">
+                                    <div class="row">
+                                            <div class="col-md-12 section-heading text-center">
+                                                    <h2 class="to-animate">Sobre Nosotros</h2>
+                                                    <div class="row">
+                                                            <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                                                                    <h3>Si necesitas una solución informática, 
+                                                                        estás en el lugar correcto. 
+                                                                        Nos encargamos de tus aplicaciones web y móviles. 
+                                                                    </h3>
+                                                                    <h3>
+                                                                        También puedes contar con nosotros para construir 
+                                                                        tu comercio en línea, con carrito de compras e 
+                                                                        integración con pasarelas de pago. </h3>
+                                                                        <h3>Gestionamos 
+                                                                        el desarrollo de tu aplicación de principio a fin, 
+                                                                        realizamos el diseño adecuado en cuanto a bases de 
+                                                                        datos y arquitecturas, según las necesidades de tu 
+                                                                        negocio. </h3>
+                                                                        <h3>No debes preocuparte por nada, puedes dejarlo 
+                                                                        en nuestras manos, integramos las redes sociales a tus 
+                                                                        aplicaciones para que las personas alrededor del mundo 
+                                                                        puedan conectarse contigo y tu negocio.</h3>
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                </div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-work" data-section="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Portafolio</h2>
+                                        <div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Queremos que conozcas nuestros trabajos. He aquí algunos de ellos...</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-sm">
+				<div class="col-md-4 col-sm-12 col-xxs-12">
+					<a href="images/portafolio1.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/portafolio1.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Buildoor</h2>
+						<span>Tienda en línea para la empresa encargada de ventas en artículos de construcción en Colombia, Buildoor.</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xxs-12">
+					<a href="images/portafolio2.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/portafolio2.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+                                                    <h2>Engagement Comunicaciones Creativas</h2>
+						<span>Página web para la empresa Engagement Comunicaciones Creativas, enfocada en diseño y estrategias de marketing, ubicada en España.</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-12 col-xxs-12">
+					<a href="images/portafolio3.png" class="fh5co-project-item image-popup to-animate">
+						<img src="images/portafolio3.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>MDI</h2>
+						<span>Página web para la empresa MDI, ubicada en Australia y dedicada a desarrollar estrategias para apoyar a empresas a ganar consumidores.</span>
+						</div>
+					</a>
+				</div>
+				<!--<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_4.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_4.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Project 4</h2>
+						<span>UI/UX</span>
+						</div>
+					</a>
+				</div>
+				
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_5.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_5.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Project 1</h2>
+						<span>Photography</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_6.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_6.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Project 2</h2>
+						<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_7.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_7.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Project 3</h2>
+						<span>Web</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_8.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_8.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Project 4</h2>
+						<span>Sketch</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12">
+					<a href="images/work_1.jpg" class="fh5co-project-item image-popup to-animate">
+						<img src="images/work_1.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Project 2</h2>
+						<span>Illustration</span>
+						</div>
+					</a>
+				</div> -->
+			</div>
+		</div>
+	</section>
+            <section id="fh5co-about" data-section="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Equipo</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+                                                    <h3>Somos un pequeño equipo de ingenieros, programadores y diseñadores, dispuestos a <b>materializar tu idea</b>. He aquí la directiva...</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+                            <div class="col-md-6">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/team3.gif" alt="Image"></figure>
+						<h3>Jessica Pérez</h3>
+						<span class="fh5co-position">CEO</span>
+						<p>Soy la responsable de la gestión y dirección administrativa de la empresa.</p>
+					<!--	<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+						</ul>-->
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="images/team2.gif" alt="Image"></figure>
+						<h3>Elio Acosta</h3>
+						<span class="fh5co-position">CTO</span>
+						<p>Soy el responsable de implementar las mejores estrategias tecnológicas.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="fh5co-services" data-section="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-left">
+					<h2 class=" left-border to-animate">Servicios</h2>
+					<div class="row">
+						<div class="col-md-8 subtext to-animate">
+							<h3>Conoce un poco más sobre lo que hacemos. He aquí los servicios que proporcionamos...</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-monitor"></i>
+					<h3>Desarrollo Web</h3>
+                                        <p>Garantizamos un desarrollo impecable de tu aplicación o página web, utilizando tecnologías avanzadas, tales como: <b>Laravel 5.4, .Net 3.5, Java 8, Angular 2, Bootstrap 3</b>, entre otras.</p>
+				</div>
+				<div class="col-md-6 col-sm-12 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-screen-smartphone"></i>
+					<h3>Desarrollo Móvil</h3>
+                                        <p>Utilizando la tecnología del framework <b>Ionic 2</b>, desarrollamos tu aplicación móvil para <b>iOS y Android.</b></p>
+                                        <br>
+                                </div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-6 col-sm-12 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-basket-loaded"></i>
+					<h3>Tiendas En Línea</h3>
+                                        <p>Te ayudamos a <b>construir tu negocio en línea</b>, integrando pasarelas de pago y garantizando un diseño adaptativo, lo cual permitirá a tus clientes ingresar perfectamente desde una <b>computadora, tablet o smartphone.</b></p>
+				</div>
+				<div class="col-md-6 col-sm-12 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-layers2"></i>
+					<h3>Gestión de Proyectos</h3>
+                                        <p>Nos encargamos de tu proyecto de principio a fin, asesorándote y asegurando el éxito del mismo, cumpliendo con el <b>alcance, tiempo, presupuesto y calidad.</b></p>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12 center-image" style="text-align: right">
+                            <img style="width: 70%;" src="images/curiosidades2.png">
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12" style="text-align: center">
+                            <p>
+                                <b style="font-size: 30px">Sabías que... </b></p>
+                            <p>La primera webcam de la historia fue utilizada para llevar seguimiento de la operación de una máquina de café.
+                            </p>
+                            <p>
+                                Fue implementada en el laboratorio de computación de la Universidad de Cambridge. Los ingenieros querían saber si el café ya estaba listo.
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12 center-image">
+                            <img style="width: 80%; margin-top: -10%" src="images/curiosidades1.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+	<section id="fh5co-counters" style="background-image: url(images/ffacts-min.jpg); background-size: cover">
+		<div class="fh5co-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center to-animate">
+					<h2>HECHOS CURIOSOS</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-star to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="689" data-speed="5000" data-refresh-interval="50">689</span>
+						<span class="fh5co-counter-label">Noches sin dormir</span>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-code to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="2343409" data-speed="5000" data-refresh-interval="50">2343409</span>
+						<span class="fh5co-counter-label">Líneas de código</span>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-cup to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="1302" data-speed="5000" data-refresh-interval="50">1302</span>
+						<span class="fh5co-counter-label">Tazas de café</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-contact" data-section="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">CONTÁCTANOS</h2>
+                                        <div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Puedes comunicarte con nosotros a través de nuestra información de contacto, o déjanos un mensaje a través de nuestro formulario de contacto.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-6 to-animate">
+					<h3>Información de Contacto</h3>
+					<ul class="fh5co-contact-info">
+						<li class="fh5co-contact-address ">
+							<i class="icon-home"></i>
+							Nos encontramos ubicados en... ¡Estamos bromeando! Somos virtuales, estamos en todos lados.
+                                                </li>
+						<!--<li><i class="icon-phone"></i> (123) 465-6789</li>-->
+						<li><i class="icon-envelope"></i>info@palmarius.com.ve</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 to-animate">
+					<h3>Formulario de Contacto</h3>
+					<div class="form-group ">
+						<label for="name" class="sr-only">Name</label>
+						<input id="name" class="form-control" placeholder="Nombre" type="text">
+					</div>
+					<div class="form-group ">
+						<label for="email" class="sr-only">Email</label>
+						<input id="email" class="form-control" placeholder="Correo" type="email">
+					</div>
+					<div class="form-group ">
+						<label for="message" class="sr-only">Message</label>
+						<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Cuéntanos un poco... ¿Qué tienes en mente?"></textarea>
+					</div>
+					<div class="form-group ">
+                                            <input onclick="sendContact()" class="btn btn-primary btn-lg" value="Enviar" type="submit">
+					</div>
+					</div>
+				</div>
+
+			</div>
+	</section>
+	
+	
+	<footer id="footer" role="contentinfo">
+		<a href="#" class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+                                    <p>&copy; Palmarius - Web Development 2017. Todos los derechos reservados.</p>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+						<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Counter -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+
+	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+	<script src="js/jquery.style.switcher.js"></script>
+	<script>
+		$(function(){
+			$('#colour-variations ul').styleSwitcher({
+				defaultThemeId: 'theme-switch',
+				hasPreview: false,
+				cookie: {
+		          	expires: 30,
+		          	isManagingLoad: true
+		      	}
+			});	
+			$('.option-toggle').click(function() {
+				$('#colour-variations').toggleClass('sleep');
+			});
+		});
+	</script>
+        <script>
+            function sendContact(){
+                var name = $("#name").val();
+                var email = $("#email").val();
+                var message = $("#message").val();
+
+                var body = {
+                    "name":name,
+                    "email":email,
+                    "description": message 
+                }; 
+
+                $.ajax({
+                    headers: { 
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json' 
+                    },
+                    type: 'POST',
+                    url: "",
+                    data: JSON.stringify(body),
+                    success: function() { 
+                        $('#myModal').modal('show'); 
+                        $('#msgError').hide();
+                         $('#msgSuccess').show();
+                    },
+                    error: function(XMLHttpRequest, textStatus, errorThrown){ 
+                         $('#myModal').modal('show'); 
+                         $('#msgError').show();
+                         $('#msgSuccess').hide();
+                    }
+            });
+
+            }
+        </script>
+	<!-- End demo purposes only -->
+
+	<!-- Main JS (Do not remove) -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
